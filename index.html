@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html style="cursor: none; background-color: black;">
+    <head>
+        <meta charset="utf-8">
+        <title>The Works  Rembrandt</title>
+        <meta name="description" content="A lil art project that I am working on">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img id="image" style="width: 30px; height: auto; pointer-events: none;" src="images/hand.png">
+        <div class="row">
+            <div class="column left" style="background-color: white;">
+              <img src="images/portrait.jpg" style="width: 100%; height: auto;">
+              <h1 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Self portrait of Rembrandt</h1>
+            </div>
+            <div class="column middle" style="position: relative; background-color:#ffffff;">
+              <img style="z-index: 1; position: relative; width: 100%; height:auto" onclick="alert('hello')" src="images/painting.jpg">
+              <img style="z-index: 2; width: 100%; height: auto; position: absolute; transform: translate(-139%, -4%) scale(0.04, 0.04)" src="images/face.png">
+            </div>
+            <div class="column right" style="background-color: white; font-family: 'MedievalSharp';">
+              <h2>The Three Trees</h2>
+              <p>Shown to the left, the three trees is one of Rembrandt's most famous works</p>
+            </div>
+          </div>
+          
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="jquer.js"></script>
+    </body>
+</html>
