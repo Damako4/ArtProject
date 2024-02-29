@@ -109,7 +109,7 @@ function setup() {
   }
 
   slider = createSlider(1, 6);
-  slider.position(window.innerWidth / 2, (window.innerHeight / 10) + 30);
+  slider.position(window.innerWidth / 4, (window.innerHeight / 10) + 30);
   slider.center('horizontal');
 
   burin_tool = createImg('images/burin.png');
@@ -128,7 +128,7 @@ function draw() {
   drawPlate();
   drawToolbox();
 
-  text('Change how roughly you etch: ', window.innerWidth / 2, window.innerHeight / 10);
+  text('Change how roughly you etch: ', window.innerWidth / 4, window.innerHeight / 10);
 
   imageMode(CORNER);
 
