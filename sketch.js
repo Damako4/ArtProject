@@ -192,7 +192,7 @@ function draw() {
 
 function drawToolbox() {
   let box_width = 200;
-  rect((window.innerWidth * (3/4)), window.innerHeight/4, box_width*2, 400);
+  //rect((window.innerWidth * (3/4)), window.innerHeight/4, box_width*2, 400);
   text("Toolbox", (window.innerWidth * (3/4)) + box_width, (window.innerHeight/4) + 20);
   burin_tool.position((window.innerWidth * (3/4)) + box_width - 25, (window.innerHeight/4) + 80);
   burin_tool.style('width:100px');
