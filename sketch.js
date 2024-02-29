@@ -101,7 +101,7 @@ function setup() {
   but_arr.push(wash_but);
   but_arr.push(wipe_but);
   but_arr.push(paper_but);
-  let vert_offset = window.innerHeight / 4;
+  let vert_offset = 150;
   let horiz_offset = 100;
   for (let i = 0; i < but_arr.length; i++) {
     but_arr[i].position(horiz_offset, vert_offset);
@@ -109,7 +109,7 @@ function setup() {
   }
 
   slider = createSlider(1, 6);
-  slider.position(window.innerWidth / 4, (window.innerHeight / 10) + 30);
+  slider.position(window.innerWidth / 5, (window.innerHeight / 10) + 30);
   slider.center('horizontal');
 
   burin_tool = createImg('images/burin.png');
@@ -128,7 +128,7 @@ function draw() {
   drawPlate();
   drawToolbox();
 
-  text('Change how roughly you etch: ', window.innerWidth / 4, window.innerHeight / 10);
+  text('Change how roughly you etch: ', window.innerWidth / 5, window.innerHeight / 10);
 
   imageMode(CORNER);
 
